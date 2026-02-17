@@ -7,7 +7,7 @@ import smtplib
 from email.message import EmailMessage
 
 URL = "https://www.stwdo.de/wohnen/aktuelle-wohnangebote"
-DATA_FILE = os.path.join("data", "seen_listings.json")
+DATA_FILE = "data/seen_listings.json"
 
 EMAIL = os.getenv("ALERT_EMAIL")
 EMAIL_PASS = os.getenv("ALERT_EMAIL_PASS")
