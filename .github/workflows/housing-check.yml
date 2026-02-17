@@ -2,8 +2,8 @@ name: Housing Check
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 mins
-  workflow_dispatch:       # allows manual run
+    - cron: "*/10 * * * *"   #every 10 mins
+  workflow_dispatch:       #allows manual run
 
 jobs:
   check:
