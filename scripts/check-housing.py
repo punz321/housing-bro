@@ -65,6 +65,8 @@ def send_email(new_listings):
         server.send_message(msg)
 
 def main():
+    send_email([{"title": "TEST LISTING", "url": "https://example.com"}])
+    return
     print("Script ran successfully")
     seen = load_seen()
     seen_urls = {item["url"] for item in seen}
